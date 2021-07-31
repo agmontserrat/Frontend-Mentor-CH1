@@ -29,7 +29,7 @@ and the mobile solution:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [stats preview card challenge](https://stats-preview-card-challenge.netlify.app/)
 
 ## My process
 
@@ -43,7 +43,6 @@ and the mobile solution:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@agmontserrat](https://www.frontendmentor.io/profile/agmontserrat)
 
 
