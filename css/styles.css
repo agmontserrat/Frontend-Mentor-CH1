@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+#card {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#accent{
+    color:hsl(277, 64%, 61%);
+}
+#main-text, .attribution{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 2rem;
+}
+.attribution{
+    padding-top: 20px;
+}
+#image-container{
+    background-size: cover;
+
+}
+#image-card{
+    width: 100%;
+    display: inline-block;
+}
+#image-card{
+    content: url(../images/image-header-mobile.jpg);
+}
+.stats{
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 10px;
+}
+.stat2{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+.stat1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold; 
+    font-size: 1.5rem;
+}
+.stat1::after{
+    content: "\a";
+    white-space: pre;
+}
+h1, .stats {
+    font-family: 'Inter', sans-serif;
+    color:hsl(0, 0%, 100%);
+}
+body{
+    margin: 0;
+    background-color: hsl(233, 47%, 7%);
+    padding: 3rem 2rem;
+}
+main{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+#card{
+    margin: 0 2rem;
+}
+#image-container{
+    float: right;
+    width: 50%;
+    position:relative
+}
+main{
+    float: left;
+    width: 50%;
+    text-align:left;
+    padding: 3rem 4rem 1rem 4rem;
+}
+body{
+    padding:8rem 7rem;
+}
+#all-stats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 10px;
+}
+#image-card{
+    content: url(../images/image-header-desktop.jpg);
+    position:absolute
+}
+.stats{
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    display: flex;
+    padding-right: 2.7rem ;
+}
+}
